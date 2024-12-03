@@ -1,6 +1,8 @@
 //JAVA es un lenguaje orientado a Objetos por lo tanto la progrmamcion se basa en programar clases y objeto y dentro del archivo empezamos la programacion con una clase publica sobre la cual es la que iremos escribiendo el codigo
 
 
+import java.util.Arrays;
+
 public class Main {
 
     //HOLA MUNDO
@@ -34,7 +36,7 @@ public class Main {
     }
 
     //STRING
-    public static void main(String[] args){
+    public static void main3(String[] args){
         //Almacenar Texto
              String texto = "Hola Mundo";
 
@@ -76,5 +78,18 @@ public class Main {
             String texto7 = "Hola \tMundo";//Insertar Tabulacion de Texto (Sangria)
             System.out.println(texto7);
 
+    }
+
+    //ARRAYS
+    public static void main(String[] args){
+        int[] numeros = new int[5];
+        numeros[0] = 5;
+        numeros[1] = 50;
+        numeros[2] = 500;
+        numeros[3] = 5000;
+        numeros[4] = 50000;
+        System.out.println(Arrays.toString(numeros));
+
+        System.out.println(numeros.length);
     }
 }
