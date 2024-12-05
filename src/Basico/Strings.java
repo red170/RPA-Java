@@ -2,7 +2,7 @@ package Basico;
 
 public class Strings {
     //STRING
-    public static void main3(String[] args){
+    public static void main(String[] args){
         //Almacenar Texto
         String texto = "Hola Mundo";
 
